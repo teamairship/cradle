@@ -26,4 +26,4 @@ deployment:
   production:
     branch: master
     heroku:
-      appname: cradle
+      appname: harvest-to-cradle
