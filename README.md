@@ -1,15 +1,17 @@
+[![CircleCI](https://circleci.com/gh/teamairship/cradle.svg?style=svg)](https://circleci.com/gh/teamairship/cradle)
+
 # Cradle
 
 To start your Phoenix app:
 
-    git clone ...
+    git clone git@github.com:teamairship/cradle.git
     cd cradle
     mix do deps.get, compile
     mix do ecto.create, migrate
     mix run priv/repo/seeds.exs
     mix phoenix.server
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Next visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
