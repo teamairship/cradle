@@ -7,8 +7,9 @@ To start your Phoenix app:
     git clone git@github.com:teamairship/cradle.git
     cd cradle
     mix do deps.get, compile
-    mix do ecto.create, migrate
+    mix do ecto.create, ecto.migrate
     mix run priv/repo/seeds.exs
+    npm install
     mix phoenix.server
 
 Next visit [`localhost:4000`](http://localhost:4000) from your browser.
